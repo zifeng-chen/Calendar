@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20FE7CB12180750800C66791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE7CB02180750800C66791 /* AppDelegate.swift */; };
+		20FE7CB32180750800C66791 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE7CB22180750800C66791 /* ViewController.swift */; };
+		20FE7CB62180750800C66791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FE7CB42180750800C66791 /* Main.storyboard */; };
+		20FE7CB82180750900C66791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FE7CB72180750900C66791 /* Assets.xcassets */; };
+		20FE7CBB2180750900C66791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FE7CB92180750900C66791 /* LaunchScreen.storyboard */; };
+		20FE7CC42180754F00C66791 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE7CC32180754F00C66791 /* UIColor+Extension.swift */; };
+		20FE7CC62180759300C66791 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE7CC52180759300C66791 /* String+Extension.swift */; };
+		20FE7CC8218075C300C66791 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE7CC7218075C300C66791 /* UIView+Extension.swift */; };
+		20FE7CCC2180765900C66791 /* ZFDateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE7CCB2180765900C66791 /* ZFDateTools.swift */; };
+		20FE7CD0218076D200C66791 /* ZFCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE7CCF218076D200C66791 /* ZFCalendarView.swift */; };
+		20FE7CD22180777D00C66791 /* ZFDaysCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE7CD12180777D00C66791 /* ZFDaysCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20FE7CAD2180750800C66791 /* ZFCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FE7CB02180750800C66791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20FE7CB22180750800C66791 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20FE7CB52180750800C66791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20FE7CB72180750900C66791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20FE7CBA2180750900C66791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20FE7CBC2180750900C66791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FE7CC32180754F00C66791 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		20FE7CC52180759300C66791 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		20FE7CC7218075C300C66791 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		20FE7CCB2180765900C66791 /* ZFDateTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFDateTools.swift; sourceTree = "<group>"; };
+		20FE7CCF218076D200C66791 /* ZFCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFCalendarView.swift; sourceTree = "<group>"; };
+		20FE7CD12180777D00C66791 /* ZFDaysCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFDaysCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20FE7CAA2180750800C66791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20FE7CA42180750800C66791 = {
+			isa = PBXGroup;
+			children = (
+				20FE7CAF2180750800C66791 /* ZFCalendar */,
+				20FE7CAE2180750800C66791 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20FE7CAE2180750800C66791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20FE7CAD2180750800C66791 /* ZFCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20FE7CAF2180750800C66791 /* ZFCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				20FE7CCE2180769300C66791 /* CalendarKit */,
+				20FE7CCA2180762600C66791 /* Utilities */,
+				20FE7CC22180752B00C66791 /* Extension */,
+				20FE7CB02180750800C66791 /* AppDelegate.swift */,
+				20FE7CB22180750800C66791 /* ViewController.swift */,
+				20FE7CB42180750800C66791 /* Main.storyboard */,
+				20FE7CB72180750900C66791 /* Assets.xcassets */,
+				20FE7CB92180750900C66791 /* LaunchScreen.storyboard */,
+				20FE7CBC2180750900C66791 /* Info.plist */,
+			);
+			path = ZFCalendar;
+			sourceTree = "<group>";
+		};
+		20FE7CC22180752B00C66791 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				20FE7CC32180754F00C66791 /* UIColor+Extension.swift */,
+				20FE7CC52180759300C66791 /* String+Extension.swift */,
+				20FE7CC7218075C300C66791 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		20FE7CCA2180762600C66791 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				20FE7CCB2180765900C66791 /* ZFDateTools.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		20FE7CCE2180769300C66791 /* CalendarKit */ = {
+			isa = PBXGroup;
+			children = (
+				20FE7CCF218076D200C66791 /* ZFCalendarView.swift */,
+				20FE7CD12180777D00C66791 /* ZFDaysCell.swift */,
+			);
+			path = CalendarKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20FE7CAC2180750800C66791 /* ZFCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FE7CBF2180750900C66791 /* Build configuration list for PBXNativeTarget "ZFCalendar" */;
+			buildPhases = (
+				20FE7CA92180750800C66791 /* Sources */,
+				20FE7CAA2180750800C66791 /* Frameworks */,
+				20FE7CAB2180750800C66791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFCalendar;
+			productName = ZFCalendar;
+			productReference = 20FE7CAD2180750800C66791 /* ZFCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20FE7CA52180750800C66791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZF;
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "陈_子疯";
+				TargetAttributes = {
+					20FE7CAC2180750800C66791 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 20FE7CA82180750800C66791 /* Build configuration list for PBXProject "ZFCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20FE7CA42180750800C66791;
+			productRefGroup = 20FE7CAE2180750800C66791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20FE7CAC2180750800C66791 /* ZFCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20FE7CAB2180750800C66791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FE7CBB2180750900C66791 /* LaunchScreen.storyboard in Resources */,
+				20FE7CB82180750900C66791 /* Assets.xcassets in Resources */,
+				20FE7CB62180750800C66791 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20FE7CA92180750800C66791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FE7CC62180759300C66791 /* String+Extension.swift in Sources */,
+				20FE7CB32180750800C66791 /* ViewController.swift in Sources */,
+				20FE7CC42180754F00C66791 /* UIColor+Extension.swift in Sources */,
+				20FE7CC8218075C300C66791 /* UIView+Extension.swift in Sources */,
+				20FE7CD22180777D00C66791 /* ZFDaysCell.swift in Sources */,
+				20FE7CB12180750800C66791 /* AppDelegate.swift in Sources */,
+				20FE7CCC2180765900C66791 /* ZFDateTools.swift in Sources */,
+				20FE7CD0218076D200C66791 /* ZFCalendarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20FE7CB42180750800C66791 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20FE7CB52180750800C66791 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20FE7CB92180750900C66791 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20FE7CBA2180750900C66791 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20FE7CBD2180750900C66791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20FE7CBE2180750900C66791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20FE7CC02180750900C66791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZFCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.churk.www.ZFCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		20FE7CC12180750900C66791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZFCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.churk.www.ZFCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20FE7CA82180750800C66791 /* Build configuration list for PBXProject "ZFCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FE7CBD2180750900C66791 /* Debug */,
+				20FE7CBE2180750900C66791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FE7CBF2180750900C66791 /* Build configuration list for PBXNativeTarget "ZFCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FE7CC02180750900C66791 /* Debug */,
+				20FE7CC12180750900C66791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20FE7CA52180750800C66791 /* Project object */;
+}
